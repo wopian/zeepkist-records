@@ -7262,9 +7262,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinia@npm:2.2.5":
-  version: 2.2.5
-  resolution: "pinia@npm:2.2.5"
+"pinia@npm:2.2.6":
+  version: 2.2.6
+  resolution: "pinia@npm:2.2.6"
   dependencies:
     "@vue/devtools-api": ^6.6.3
     vue-demi: ^0.14.10
@@ -7277,7 +7277,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 2b1f6f0eed58f97ea75adc88aee37088eac341e484eae43447832e19c580b1572715366720a778ed4b4f6baa83bac010b1694efad24016b92b56d73ee09298ad
+  checksum: d0349fca8ae2087d112805144c188c5c950a5b380f96eb6054de1d2a218471e90c050422583ffae4eb49653a89a1de70353c5faa09e12eaa9f0205f0e0c03eab
   languageName: node
   linkType: hard
 
@@ -9640,7 +9640,7 @@ __metadata:
     ky: 1.7.2
     less: 4.2.0
     npm-run-all2: 7.0.1
-    pinia: 2.2.5
+    pinia: 2.2.6
     pinia-shared-state: 0.5.1
     prettier: 2.8.8
     semantic-release: 24.2.0
