@@ -5564,9 +5564,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"less@npm:4.2.0":
-  version: 4.2.0
-  resolution: "less@npm:4.2.0"
+"less@npm:4.2.1":
+  version: 4.2.1
+  resolution: "less@npm:4.2.1"
   dependencies:
     copy-anything: ^2.0.1
     errno: ^0.1.1
@@ -5595,7 +5595,7 @@ __metadata:
       optional: true
   bin:
     lessc: bin/lessc
-  checksum: 2ec4fa41e35e5c0331c1ee64419aa5c2cbb9a17b9e9d1deb524ec45843f59d9c4612dffc164ca16126911fbe9913e4ff811a13f33805f71e546f6d022ece93b6
+  checksum: 87fa9aca6d6321780eef8d60c6cafdfa3daf6af32ee499f1c182d3684bd6a8e4271436b2652ddda40a2e63f40124f92f0bf68cf74a3bd0867a0555370fbf166a
   languageName: node
   linkType: hard
 
@@ -9626,7 +9626,7 @@ __metadata:
     eslint-plugin-vue: 9.25.0
     eslint-plugin-vuejs-accessibility: 2.2.1
     ky: 1.7.2
-    less: 4.2.0
+    less: 4.2.1
     npm-run-all2: 7.0.1
     pinia: 2.2.6
     pinia-shared-state: 0.5.1
