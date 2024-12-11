@@ -1787,10 +1787,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/tsconfig@npm:0.5.1":
-  version: 0.5.1
-  resolution: "@vue/tsconfig@npm:0.5.1"
-  checksum: 1f8e51eae0aae92ea518f0713394135bf1f8a80decd486417fb3701851e903a4c18bc12db6c8d3223e1e0bd1dc01c70668bd7703382a130fd250867b772002ce
+"@vue/tsconfig@npm:0.7.0":
+  version: 0.7.0
+  resolution: "@vue/tsconfig@npm:0.7.0"
+  peerDependencies:
+    typescript: 5.x
+    vue: ^3.4.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+    vue:
+      optional: true
+  checksum: 98992aa8dc37f26cfe440c1b0ad402c3fb0132b89a53af036925df7b866e0c681eb1d0e706ae0d2372751103782731993299a5a9f02651462ef8d71f3ab38ae8
   languageName: node
   linkType: hard
 
@@ -9496,7 +9504,7 @@ __metadata:
     "@vitejs/plugin-vue": 5.2.1
     "@vue/eslint-config-prettier": 7.1.0
     "@vue/eslint-config-typescript": 11.0.3
-    "@vue/tsconfig": 0.5.1
+    "@vue/tsconfig": 0.7.0
     "@vueuse/components": 11.3.0
     "@vueuse/schema-org": 2.2.0
     "@zeepkist/gtr-api": 3.12.1
