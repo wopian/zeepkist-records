@@ -72,8 +72,8 @@ export default defineConfig({
 
           'color-bg-1': '#fff7ec',
 
-          'dark-color-bg-1': '#222',
-          'dark-color-bg-2': '#181818',
+          'dark-color-bg-1': '#0d121b',
+          'dark-color-bg-2': '#060c17',
           'dark-color-bg-3': '#181818',
           'dark-color-bg-4': '#181818',
           'dark-color-bg-5': '#181818',
@@ -84,16 +84,16 @@ export default defineConfig({
           'dark-color-secondary': '#222',
 
           // Zeepkist Orange
-          'orange-1': '#FFF9E8',
-          'orange-2': '#FFEABA',
-          'orange-3': '#FFD88B',
-          'orange-4': '#FFC45D',
-          'orange-5': '#FFAC2E',
-          'orange-6': '#FF9200',
-          'orange-7': '#D27000',
-          'orange-8': '#A65300',
-          'orange-9': '#793900',
-          'orange-10': '#4D2100',
+          'orange-1': '#FFA500',
+          'orange-2': '#FFA500',
+          'orange-3': '#FFA500',
+          'orange-4': '#FFA500',
+          'orange-5': '#FFA500',
+          'orange-6': '#FFA500',
+          'orange-7': '#FFA500',
+          'orange-8': '#FFA500',
+          'orange-9': '#FFA500',
+          'orange-10': '#FFA500',
 
           // Zeepkist Yellow
           'yellow-1': '#FEFFE8',
