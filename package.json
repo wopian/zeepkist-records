@@ -1,103 +1,12 @@
 {
-  "name": "zeepkist-records",
-  "version": "0.0.0",
-  "type": "module",
-  "private": true,
-  "scripts": {
-    "dev": "vite",
-    "build": "run-p type-check build-only",
-    "preview": "vite preview",
-    "test:e2e": "start-server-and-test preview :4173 'cypress run --e2e'",
-    "test:e2e:dev": "start-server-and-test 'vite dev --port 4173' :4173 'cypress open --e2e'",
-    "test:unit": "cypress run --component",
-    "test:unit:dev": "cypress open --component",
-    "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "sitemap": "node scripts/createSitemap.js",
-    "sitemap:urls": "node scripts/createUrls.js"
+  "extends": ["local>wopian/renovate-config"],
+  "git-submodules": {
+    "enabled": true
   },
-  "dependencies": {
-    "@arco-design/color": "0.4.0",
-    "@arco-design/web-vue": "2.56.3",
-    "@tabler/icons-vue": "3.24.0",
-    "@tanstack/query-persist-client-core": "5.62.7",
-    "@tanstack/query-sync-storage-persister": "5.62.7",
-    "@tanstack/vue-query": "5.62.7",
-    "@unhead/vue": "1.11.14",
-    "@vueuse/components": "11.3.0",
-    "@vueuse/schema-org": "2.2.0",
-    "@zeepkist/gtr-api": "3.12.1",
-    "color-hash": "2.0.2",
-    "date-fns": "2.30.0",
-    "date-fns-tz": "2.0.1",
-    "ky": "1.7.3",
-    "pinia": "2.3.0",
-    "pinia-shared-state": "0.5.1",
-    "three": "0.169.0",
-    "vue": "3.5.13",
-    "vue-router": "4.5.0"
-  },
-  "devDependencies": {
-    "@rushstack/eslint-patch": "1.10.4",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "13.0.0",
-    "@semantic-release/github": "11.0.1",
-    "@semantic-release/release-notes-generator": "14.0.1",
-    "@tsconfig/cypress": "1.0.2",
-    "@tsconfig/node20": "20.1.4",
-    "@types/color-hash": "2.0.0",
-    "@types/node": "22.10.2",
-    "@types/three": "0.170.0",
-    "@vitejs/plugin-vue": "5.2.1",
-    "@vue/eslint-config-prettier": "7.1.0",
-    "@vue/eslint-config-typescript": "11.0.3",
-    "@vue/tsconfig": "0.5.1",
-    "cypress": "13.16.1",
-    "eslint": "8.57.0",
-    "eslint-plugin-cypress": "2.15.2",
-    "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-simple-import-sort": "10.0.0",
-    "eslint-plugin-unicorn": "47.0.0",
-    "eslint-plugin-vue": "9.25.0",
-    "eslint-plugin-vuejs-accessibility": "2.2.1",
-    "less": "4.2.1",
-    "npm-run-all2": "7.0.1",
-    "prettier": "2.8.8",
-    "semantic-release": "24.2.0",
-    "sitemap": "8.0.0",
-    "start-server-and-test": "2.0.9",
-    "stream-to-array": "2.3.0",
-    "typescript": "5.6.3",
-    "vite": "5.4.11",
-    "vue-tsc": "2.1.10"
-  },
-  "dependenciesMeta": {
-    "cypress": {
-      "built": true
-    },
-    "esbuild": {
-      "built": true
-    },
-    "vue-demi": {
-      "built": true
+  "packageRules": [
+    {
+      "groupName": "tanstack",
+      "matchPackageNames": ["@tanstack/{/,}**"]
     }
-  },
-  "renovate": {
-    "extends": [
-      "local>wopian/renovate-config"
-    ],
-    "git-submodules": {
-      "enabled": true
-    },
-    "packageRules": [
-      {
-        "matchPackagePrefixes": [
-          "@tanstack/"
-        ],
-        "groupName": "tanstack"
-      }
-    ]
-  },
-  "packageManager": "yarn@3.8.7"
+  ]
 }
