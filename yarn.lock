@@ -2871,7 +2871,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3":
+"cross-spawn@npm:^7.0.0, cross-spawn@npm:^7.0.2, cross-spawn@npm:^7.0.3, cross-spawn@npm:^7.0.6":
   version: 7.0.6
   resolution: "cross-spawn@npm:7.0.6"
   dependencies:
@@ -6478,12 +6478,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-run-all2@npm:7.0.1":
-  version: 7.0.1
-  resolution: "npm-run-all2@npm:7.0.1"
+"npm-run-all2@npm:7.0.2":
+  version: 7.0.2
+  resolution: "npm-run-all2@npm:7.0.2"
   dependencies:
     ansi-styles: ^6.2.1
-    cross-spawn: ^7.0.3
+    cross-spawn: ^7.0.6
     memorystream: ^0.3.1
     minimatch: ^9.0.0
     pidtree: ^0.6.0
@@ -6495,7 +6495,7 @@ __metadata:
     npm-run-all2: bin/npm-run-all/index.js
     run-p: bin/run-p/index.js
     run-s: bin/run-s/index.js
-  checksum: 3879513c7cc7b3ae164e969931563a3699406fd2a909c30d2c95d8d106bf1e0d1a5c807885c2880d7f0c9e96d3a95d5c56166623dc928e26e28bd87839aa7785
+  checksum: ef8f46b61482fccc2e4acef0001f841d0bffb134e1a6955d411bdbe80ae73de9773a83acefb2b7fc3c6a936244f7b9b145c703b16f9f06226e64dde616d42f11
   languageName: node
   linkType: hard
 
@@ -9576,7 +9576,7 @@ __metadata:
     eslint-plugin-vuejs-accessibility: 2.2.1
     ky: 1.7.3
     less: 4.2.1
-    npm-run-all2: 7.0.1
+    npm-run-all2: 7.0.2
     pinia: 2.3.0
     pinia-shared-state: 0.5.1
     prettier: 2.8.8
