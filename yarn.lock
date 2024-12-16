@@ -1044,9 +1044,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/release-notes-generator@npm:14.0.1, @semantic-release/release-notes-generator@npm:^14.0.0-beta.1":
-  version: 14.0.1
-  resolution: "@semantic-release/release-notes-generator@npm:14.0.1"
+"@semantic-release/release-notes-generator@npm:14.0.2, @semantic-release/release-notes-generator@npm:^14.0.0-beta.1":
+  version: 14.0.2
+  resolution: "@semantic-release/release-notes-generator@npm:14.0.2"
   dependencies:
     conventional-changelog-angular: ^8.0.0
     conventional-changelog-writer: ^8.0.0
@@ -1060,7 +1060,7 @@ __metadata:
     read-package-up: ^11.0.0
   peerDependencies:
     semantic-release: ">=20.1.0"
-  checksum: c470ed47f9fc0ee10b4b18ac5b560ac1a28faaea509db45a23ffcca397077dea2b7e7bbe083b8746e646798ff3917e8639fa6822282d2ca7039b6da385f0c4bd
+  checksum: aa87189ba36b63f64321dfe2f294ce3508773d75dc4b162d994bda12c2c4fffddfa70c849ff4aaa2af00fe1df0da6e2b5365a9634f5cb34779bd0cec4eebc735
   languageName: node
   linkType: hard
 
@@ -9545,7 +9545,7 @@ __metadata:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/commit-analyzer": 13.0.0
     "@semantic-release/github": 11.0.1
-    "@semantic-release/release-notes-generator": 14.0.1
+    "@semantic-release/release-notes-generator": 14.0.2
     "@tabler/icons-vue": 3.26.0
     "@tanstack/query-persist-client-core": 5.62.7
     "@tanstack/query-sync-storage-persister": 5.62.7
