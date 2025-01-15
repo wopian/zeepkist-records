@@ -1795,33 +1795,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/components@npm:11.3.0":
-  version: 11.3.0
-  resolution: "@vueuse/components@npm:11.3.0"
+"@vueuse/components@npm:12.4.0":
+  version: 12.4.0
+  resolution: "@vueuse/components@npm:12.4.0"
   dependencies:
-    "@vueuse/core": 11.3.0
-    "@vueuse/shared": 11.3.0
-    vue-demi: ">=0.14.10"
-  checksum: a6370b5a0fc26adb8b6b9dfef2b8cbe70b332314ac56de0ae19dd42f5d452605f0933020c457651dc49d02a80d44aa30018dd0e345628400321b32f41e99b4b6
+    "@vueuse/core": 12.4.0
+    "@vueuse/shared": 12.4.0
+    vue: ^3.5.13
+  checksum: 61e165fa923b5cc4f819f48ccfe73450343f3863f420d2c4c6649b0abea782524e671673d28654cecbfa2b213ce0849ae9638a61ec6951b6d75ac108eea18b83
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:11.3.0":
-  version: 11.3.0
-  resolution: "@vueuse/core@npm:11.3.0"
+"@vueuse/core@npm:12.4.0":
+  version: 12.4.0
+  resolution: "@vueuse/core@npm:12.4.0"
   dependencies:
     "@types/web-bluetooth": ^0.0.20
-    "@vueuse/metadata": 11.3.0
-    "@vueuse/shared": 11.3.0
-    vue-demi: ">=0.14.10"
-  checksum: 0a3a1a3e0ea0db47019e9e219442a5689f0dca60b006641decf55c3b6bf9223a1fa53cf83919b03cf256c9c04ea14ac5077c50bbf26d07e874c6e54d362a200a
+    "@vueuse/metadata": 12.4.0
+    "@vueuse/shared": 12.4.0
+    vue: ^3.5.13
+  checksum: d7a7ab4bb2eee616b4575f4c09e1440a97f2abd036d3bdeba2686d3ec375527c91bc597930fb0720caa4b8e4095235ae593829a24b655fa62273c5599ccef060
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:11.3.0":
-  version: 11.3.0
-  resolution: "@vueuse/metadata@npm:11.3.0"
-  checksum: 871040aea1c35e7a6b569a7511b39b483edcb073085492300868a03436490dde0387d89fa599eec6d371ce6fb0003bc7fa054b3b73e3547fc1c88b742670f5a6
+"@vueuse/metadata@npm:12.4.0":
+  version: 12.4.0
+  resolution: "@vueuse/metadata@npm:12.4.0"
+  checksum: 2b1fee1bde1505aaa1901a824ae7868cf789d15e5acaf0e15d43115772369cfcf715ba99c0446d4e484f2011aad217875cef021e0051a54d865e20b7c55ce94a
   languageName: node
   linkType: hard
 
@@ -1837,12 +1837,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:11.3.0":
-  version: 11.3.0
-  resolution: "@vueuse/shared@npm:11.3.0"
+"@vueuse/shared@npm:12.4.0":
+  version: 12.4.0
+  resolution: "@vueuse/shared@npm:12.4.0"
   dependencies:
-    vue-demi: ">=0.14.10"
-  checksum: 3f39044ec57c2ae350340f6633cbdb1c52b96f0d3376702fb539cc1ef0c76f0a422328b22955c3c8831c36847fc7fd4a69217b5050e527060e9a7f19b7887db7
+    vue: ^3.5.13
+  checksum: 2d3ed8a334d76ccb18a7507fc222327391157f0889d30f2f039d4cce42b886e224b3e13f922948bac6df6bf7490325a659e2a7b0be8f9e4f377db5be682805de
   languageName: node
   linkType: hard
 
@@ -9218,7 +9218,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-demi@npm:>=0.14.10, vue-demi@npm:^0.14.10, vue-demi@npm:^0.14.6":
+"vue-demi@npm:^0.14.10, vue-demi@npm:^0.14.6":
   version: 0.14.10
   resolution: "vue-demi@npm:0.14.10"
   peerDependencies:
@@ -9276,7 +9276,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue@npm:3.5.13":
+"vue@npm:3.5.13, vue@npm:^3.5.13":
   version: 3.5.13
   resolution: "vue@npm:3.5.13"
   dependencies:
@@ -9590,7 +9590,7 @@ __metadata:
     "@vue/eslint-config-prettier": 7.1.0
     "@vue/eslint-config-typescript": 11.0.3
     "@vue/tsconfig": 0.5.1
-    "@vueuse/components": 11.3.0
+    "@vueuse/components": 12.4.0
     "@vueuse/schema-org": 2.2.0
     "@zeepkist/gtr-api": 3.12.1
     color-hash: 2.0.2
