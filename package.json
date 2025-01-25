@@ -32,7 +32,7 @@
     "date-fns": "2.30.0",
     "date-fns-tz": "2.0.1",
     "ky": "1.7.4",
-    "pinia": "2.3.0",
+    "pinia": "2.3.1",
     "pinia-shared-state": "0.5.1",
     "three": "0.172.0",
     "vue": "3.5.13",
