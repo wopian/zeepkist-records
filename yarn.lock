@@ -9168,9 +9168,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:5.4.12":
-  version: 5.4.12
-  resolution: "vite@npm:5.4.12"
+"vite@npm:5.4.14":
+  version: 5.4.14
+  resolution: "vite@npm:5.4.14"
   dependencies:
     esbuild: ^0.21.3
     fsevents: ~2.3.3
@@ -9207,7 +9207,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 6b1a558fd6f5478149a805d173ce4129a102435426a95a99a12a7953d8afe7560dfe8df8e17ec9a1f0e2c74503bc406828b913ae7c2fc61f015633c82795fd64
+  checksum: 7360661da0415809454ff8809b6666e868ffc3e5ccfbd5fc17425341546cdc3dd3d37c68fcd6ed7305252aaecd0d251ede3745b57aaebd00b8aececc30b6697b
   languageName: node
   linkType: hard
 
@@ -9616,7 +9616,7 @@ __metadata:
     stream-to-array: 2.3.0
     three: 0.172.0
     typescript: 5.7.3
-    vite: 5.4.12
+    vite: 5.4.14
     vue: 3.5.13
     vue-router: 4.5.0
     vue-tsc: 2.2.0
